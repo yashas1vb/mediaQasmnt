@@ -1,0 +1,36 @@
+1. What are media queries in CSS and their use case?
+
+Media queries are a feature of CSS that allows you to apply different styles to a
+webpage based on the characteristics of the device it is being displayed on. 
+
+This can be useful for creating responsive designs that look good on a variety of
+different devices, such as smartphones, tablets, and desktop computers.
+
+2. Difference between min-width and max-width in media queries in CSS?
+
+The min-width media query will match the specified CSS rules when the viewport width is equal to or exceeds the defined minimum width.
+
+Where as the max-width media query will match the specified CSS rules when the viewport width is equal to or less than the defined maximum width.
+
+3. Explain float property and clear property in CSS with examples.
+
+The float property is used to make an element float to the left or right within its containing element, allowing other content to flow around it.
+
+example:
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+
+The clear property is used to control how elements should behave in relation to floated elements.
+
+example:
+.clear-left {
+  clear: left;
+}
+.clear-right {
+  clear: right;
+}
